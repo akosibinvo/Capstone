@@ -1,0 +1,135 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+
+}
+
+nav {
+    background-color: #fff;
+    transition: all 0.6s ease-in-out;
+}
+
+.navbar .navbar-brand {
+    font-size: calc(1.525rem + 0.5vw);
+    color: #000;
+}
+
+.navbar-nav .nav-link {
+    text-transform: uppercase;
+    font-size: 1.2rem;  
+    padding-bottom: 10px;
+    color: #333;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #00008b;
+}
+
+.navbar-nav .active-menu {
+    position: relative;
+    color: #00008b !important;
+}
+
+.active-menu::after {
+    content: "";
+    position: absolute;
+    left: 45%;
+    bottom: 0;
+    width: 0.5rem;
+    height: 0.5rem;
+    background-color: #00008b;
+    border-radius: 50%;
+    transition: 0.3s ease;
+}
+
+.headline {
+    font-size: calc(2rem + 1.8vw);
+}
+
+.message {
+    font-size: calc(1rem + 0.5vw);
+    font-family: 'Roboto', sans-serif;
+}
+
+.card {
+    overflow: hidden;
+}
+
+.card .container-img {
+    overflow: hidden;
+    cursor: pointer;
+}
+
+#itemCount {
+    position: absolute;
+    display: none;
+    font-size: 0.8rem;
+    top: -3px;
+    right: -12px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #000;
+    color: #fff;
+    text-align: center;
+}
+
+.footer-title {
+    font-family: 'Baloo Chettan 2', cursive;
+}
+
+.image .card {
+    height: 35rem;
+}
+
+.auto-type {
+    color: #00008b;
+}
+
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span
+{
+    background: #00008b !important;
+}
+.customPrevBtn {
+    padding: 12px 14px;
+    text-align: center;
+    border-radius: 50%;
+    transition: 0.3s ease;
+}
+
+.customPrevBtn:hover {
+    background-color: #f1f1f1;
+}
+
+.customNextBtn {
+    padding: 12px 14px;
+    text-align: center;
+    border-radius: 50%;
+    transition: 0.3s ease;
+}
+
+.customNextBtn:hover {
+    background-color: #f1f1f1;
+}
+
+.election {
+    cursor: pointer;
+}
+
+.profile {
+    cursor: pointer;
+}
+
+.profile img:hover {
+    outline: 4px solid rgba(0, 0, 139, 0.3);
+    transition: 0.1s ease;
+}
+
+.border-radius-md {
+    border-radius: 0.375rem;
+}
